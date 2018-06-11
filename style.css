@@ -81,7 +81,7 @@ li{
   padding: 0;
   margin: 0;
   width: auto;
-  background-image: linear-gradient(white,silver,grey,black);
+  background-image: linear-gradient(white,silver,grey, #343434 );
   border-top-left-radius: 15px 15px;
   border-bottom-left-radius: 15px 15px;
   border-top-right-radius:15px 15px;
@@ -96,4 +96,8 @@ li{
 #menu a{
   display: inline-block;
   margin: 0 30px;
+}
+img{
+  max-width: 75px;
+  max-width: 75px;
 }
