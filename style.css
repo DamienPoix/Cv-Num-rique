@@ -1,0 +1,80 @@
+body{
+  background-image: url(BoisNoir.jpg);
+}
+h1{
+  text-align: center;
+  font-size: 34px;
+  color:red;
+}
+h2{
+  font-size: 26px;
+  color: orange;
+  text-align: center;
+  text-decoration: underline;
+}
+#Compétence1{
+  height: 30px;
+  border: 2px solid black;
+  background-image: linear-gradient(to right,#a50000 ,#ff0000 ,#064b00 ,white 65%);
+  width: 300px;
+  text-align: right;
+  font-size: 25px;
+}
+p {
+  font-size: 23px;
+  padding: 3px;
+
+}
+#Compétence2{
+  height: 30px;
+  border: 2px solid black;
+  background-image: linear-gradient(to right, #a50000 , #ff0000 ,#ffffff , white 70%);
+  width: 300px;
+  text-align: right;
+  font-size: 25px
+}
+#Compétence3{
+  height: 30px;
+  border: 2px solid black;
+  background-image: linear-gradient(to right,#a50000 ,#ff0000 ,#064b00 , white 65%);
+  width: 300px;
+  text-align: right;
+  font-size: 25px
+}
+#Compétence4{
+  height: 30px;
+  border: 2px solid black;
+  background-image: linear-gradient(to right,#a50000 ,#ff0000 ,#007a25 ,white 65%);
+  width: 300px;
+  text-align: right;
+  font-size: 25px
+}
+#Compétence5{
+  height: 30px;
+  border: 2px solid black;
+  background-image: linear-gradient(to right,#a50000 , #ff0000 ,#064b00 ,#00c83d ,white 65%);
+  width: 300px;
+  text-align: right;
+  font-size: 25px
+}
+#Compétence6{
+  height: 30px;
+  border: 2px solid black;
+  background-image: linear-gradient(to right,#a50000 ,#ff0000 ,#064b00 ,white 65%);
+  width: 300px;
+  text-align: right;
+  font-size: 25px;
+}
+ ul {
+  background-color: silver;
+  padding: 5px;
+  width: 30%;
+  height: auto;
+  border: 2px solid black;
+  font-size: 26px;
+  margin-left: 35%;
+}
+li{
+  margin-left: 65px;
+  font-size: 23px;
+}
