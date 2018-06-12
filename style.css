@@ -87,6 +87,7 @@ ul {
 li{
   margin-left: 65px;
   font-size: 23px;
+  color:   #800132 ;
 }
 #menu{
   padding: 0;
@@ -100,12 +101,14 @@ li{
 }
 #menu li{
   display: inline;
-  list-style: none;
 }
 #menu a{
   display: inline-block;
   margin: 0 30px;
-  padding-left: 3%
+  padding-left: 3%;
+  color:#000951;
+  font-weight: bold;
+  text-decoration: none;
 }
 img{
   max-width: 75px;
@@ -126,4 +129,30 @@ img{
   width: 300px;
   text-align: right;
   font-size: 25px;
+}
+.Info{
+  display: block;
+  margin-top: 0px;
+  position: absolute;
+  width: 20%;
+  height: 25%;
+  background-color: grey;
+  border-top-left-radius:15px 15px;
+  border-bottom-right-radius: 15px 15px;
+  border-top-right-radius: 15px 15px;
+  border-bottom-left-radius: 15px 15px;
+}
+.photo{
+  margin-left: 54.15%;
+  position: absolute;
+	width:200px;
+	height:206px;
+  margin-top: 23px;
+}
+.photo img{
+  max-width: 200px;
+  max-height: 200px;
+}
+.cible{
+
 }
