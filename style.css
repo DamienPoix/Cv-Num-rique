@@ -82,6 +82,7 @@ h2 , p , a{
   font-size: 25px;
 }
 ul {
+  font-family: 'Fredoka One', cursive;
   background-color: silver;
   padding: 5px;
   height: auto;
