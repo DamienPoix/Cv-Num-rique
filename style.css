@@ -31,7 +31,7 @@ h1{
   background-image: linear-gradient(#343434, grey,silver,white);
   text-align: center;
 }
-h2 , p , a{
+h2 , p , a {
   font-family: 'Fredoka One', cursive;
   font-size: 26px;
   color: orange;
@@ -81,13 +81,15 @@ h2 , p , a{
   text-align: right;
   font-size: 25px;
 }
-ul {
+ul{
+  font-weight: bold;
   font-family: 'Fredoka One', cursive;
   background-color: silver;
   padding: 5px;
   height: auto;
   border: 2px solid black;
   font-size: 26px;
+  color :#000951;
 }
 li{
   font-weight: bold;
@@ -124,7 +126,7 @@ li{
   background:#000951;
   color: silver;
 }
-img{
+ a img{
   max-width: 75px;
   max-width: 75px;
 }
@@ -204,3 +206,13 @@ li img{
   text-align: center;
   text-decoration: none;
 }
+ ol{
+   list-style: none
+ }
+h3{
+    font-family: 'Fredoka One', cursive;
+    color:#000951;
+}
+$('.carousel').carousel({
+  interval: 2000
+})
